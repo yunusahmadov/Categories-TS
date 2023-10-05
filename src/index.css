@@ -1,66 +1,26 @@
-*{
+/* App.css */
+
+/* Стили для категории */
+.category {
+  display: inline-block;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Стили для подкатегории */
+.sub-category {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* Уберем стандартные маргины для списков */
+ul {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-body{
-  background-color: #242424;
-
-}
-
-button{
-  padding: 5px 20px;
-}
-header{
-  max-width: 50%;
-  margin: 0 auto;
-  border: 1px solid green;
-  padding: 10px;
   display: flex;
-  justify-content: space-between;
-}
-header input{
-  width: 75%;
-  padding: 10px;
-}
-.category{
-  background-color: white;
-  padding: 5px 10px;
-  position: relative;
-margin: 0 auto;
-  width: 200px;
-}
-.buttons{
-  position: absolute;
-  right: -70px;
-  top: 0;
-  display: flex;
-  gap: 5px;
-}
-.buttons svg{
-  color: red;
-  width: 20px;
-  height: 20px;
-  background-color: white;
-
-}
-.subcategory-container{
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  gap: 20px;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-.subcategory{
-  position: relative;
-
-}
-.subcategory-container p {
-  background-color: white;
-  padding: 10px;
-}
-.new-modal{
-  position: absolute;
-  bottom: -50px;
+  justify-content: center;
 }

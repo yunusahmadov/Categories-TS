@@ -115,10 +115,11 @@ function App() {
                 <div className="buttons">
                   <PencilIcon onClick={() => editSubCategory(mainIndex, subIndex)} />
                   <TrashIcon onClick={() => deleteSubCategory(mainIndex, subIndex)} />
+            <PlusIcon onClick={() => addSubSubCategory(mainIndex)} />
+
                 </div>
               </div>
             ))}
-            <PlusIcon onClick={() => addSubSubCategory(mainIndex)} />
           </div>
         ))}
       </div>
@@ -127,3 +128,27 @@ function App() {
 }
 
 export default App;
+
+const cat=[
+  {
+    title: 'ehmed',
+    sub: [
+      {
+        title: "1.1",
+        sub:[
+          {
+            title:'1.1.1'
+          },
+          {
+            title:'1.1.2',
+            sub: [
+              {
+                
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
