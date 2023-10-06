@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { PlusIcon } from "@heroicons/react/20/solid";
 import { PencilIcon, TrashIcon } from "@heroicons/react/24/solid";
 
