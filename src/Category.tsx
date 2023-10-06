@@ -53,24 +53,24 @@ const Category: React.FC<CategoryProps> = ({ name, onDelete }) => {
       <div>
         {isEditing ? (
           <button  onClick={handleSaveCategory}>
-            Сохранить
+           Save
           </button>
         ) : (
           <button  onClick={handleEditCategory}>
-            Редактировать
+            Edit
           </button>
         )}
         <button  onClick={handleDeleteCategory}>
-          Удалить
+          Delete
         </button>
       </div>
       <div>
         <button  onClick={handleAddSubCategory}>
-          Добавить подкатегорию
+         Add SubCategory
         </button>
         <input
           type="text"
-          placeholder="Новая подкатегория"
+          placeholder="New subcategory"
           value={newSubCategory}
           onChange={(e) => setNewSubCategory(e.target.value)}
         />

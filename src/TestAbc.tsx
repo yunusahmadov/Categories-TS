@@ -20,14 +20,14 @@ function App() {
 
   return (
     <div>
-      <h1>Категории</h1>
+      <h1>Category</h1>
       <div>
         <button  onClick={handleAddCategory}>
-          Добавить категорию
+          Add Category
         </button>
         <input
           type="text"
-          placeholder="Новая категория"
+          placeholder="New Category"
           value={newCategory}
           onChange={(e) => setNewCategory(e.target.value)}
         />
