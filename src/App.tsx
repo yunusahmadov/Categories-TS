@@ -55,12 +55,12 @@ function App() {
     }
   };
 
-  const editMainCategoryTitle = () => {
-    const editedMainCategory = prompt("Edit main category:", title);
-    if (editedMainCategory !== null) {
-      setTitle(editedMainCategory);
-    }
-  };
+  // const editMainCategoryTitle = () => {
+  //   const editedMainCategory = prompt("Edit main category:", title);
+  //   if (editedMainCategory !== null) {
+  //     setTitle(editedMainCategory);
+  //   }
+  // };
 
   return (
     <>
@@ -129,26 +129,3 @@ function App() {
 
 export default App;
 
-const cat=[
-  {
-    title: 'ehmed',
-    sub: [
-      {
-        title: "1.1",
-        sub:[
-          {
-            title:'1.1.1'
-          },
-          {
-            title:'1.1.2',
-            sub: [
-              {
-                
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
