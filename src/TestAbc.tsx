@@ -20,6 +20,8 @@ function App() {
 
   return (
     <div>
+    <p className="created">Created by:yunusahmadov</p>
+
       <h1>Category</h1>
       <div>
         <button  onClick={handleAddCategory}>

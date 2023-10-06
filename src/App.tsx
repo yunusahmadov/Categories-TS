@@ -55,12 +55,6 @@ function App() {
     }
   };
 
-  // const editMainCategoryTitle = () => {
-  //   const editedMainCategory = prompt("Edit main category:", title);
-  //   if (editedMainCategory !== null) {
-  //     setTitle(editedMainCategory);
-  //   }
-  // };
 
   return (
     <>
